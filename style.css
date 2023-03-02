@@ -1,0 +1,50 @@
+body {
+    background-image: linear-gradient(to right, white, pink);
+
+}
+
+
+* {
+    font-size: 25px;
+}
+
+:placeholder-shown {
+    font-size: medium;
+}
+
+
+#a {
+    height: 30px;
+    margin-bottom: 10px;
+    width: 25%;
+}
+
+#b {
+    height: 30px;
+    margin-bottom: 10px;
+    width: 25%;
+}
+
+#c {
+    height: 30px;
+    margin-bottom: 10px;
+    width: 25%;
+}
+
+button {
+    width: 15%;
+    font-size: medium;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 55px;
+    cursor: pointer;
+}
+
+.result {
+    margin-left: 100px;
+
+}
+
+sup {
+    font-size: small;
+}

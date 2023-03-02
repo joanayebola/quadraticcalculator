@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadratic Calculator</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div class="container">
+        <div class="calculator">
+            <h1>Quadratic Formula Calculator</h1>
+            <p>ax<sup>2</sup> + bx + c</p>
+            <form action="" id="form">
+                <label for="">a = </label>
+                <input type="number" id="a" placeholder="coefficient a"><br>
+                <label for="">b = </label>
+                <input type="number" id="b" placeholder="coefficient b"><br>
+                <label for="">c = </label>
+                <input type="number" id="c" placeholder="coefficient c"><br>
+                <button type="submit">Calculate</button>
+            </form>
+
+            <div class="result">
+                <p>x1 = <span id="result1"> 6</span></p>
+                <p>x2 = <span id="result2">-5</span></p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
